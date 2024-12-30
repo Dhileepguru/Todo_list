@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+header
+{
+    margin-left: -200px
+}
+.container
+{
+    background-color:blanchedalmond;
+    color: black;
+    width:400px;
+    height: 400px;
+    margin-left: 480px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.container,h1
+{
+    padding-left: 12%;
+    padding-top: 20px;
+}
+.in
+{
+    margin-left: -100px;
+    width: 300px;
+    min-height: max-content;
+    border-radius: 10px;
+    padding: 10px;
+}
+button
+{
+    margin-left: 5px;
+    border-radius: 10px;
+    padding: 10px ;
+    color: aliceblue;
+    background-color: black;
+}

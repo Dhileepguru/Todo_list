@@ -4,10 +4,24 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Todolist</title>
+        <link rel="stylesheet" href="./assets/style.css">
     </head>
-    <body>
-        <div>
-            <h1>Hello world</h1>
+    <body >  <!--style="background-color: black;"-->
+        <header>
+            <h1>Todo-App</h1>
+        </header>
+        <div class="container">
+            <h1>TodoList</h1>
+            <br>
+            <input type="text" class="in" id="inputid" placeholder="Enter a task">
+            <button onclick="display()" type="submit">Add Task</button>
+            <div id="todolist">
+                
+            </div>
         </div>
+
+
+        <script src="./assets/script.js"></script>
     </body>
+    
 </html>
